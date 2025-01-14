@@ -6,9 +6,9 @@ This will generate a deno proxy for huggingface api, transfer into OpenAI format
 
 You need to add `Environment Variables` in your deno project
 
-- API_KEY : the key you want use for OneAPI/NewAPI/Uni-API
+- `API_KEY` : the key you want use for OneAPI/NewAPI/Uni-API
 
-- HUGGINGFACE_API_KEYS: the API you got from [here]([url](https://huggingface.co/settings/tokens/new?globalPermissions=inference.serverless.write&tokenType=fineGrained))
+- `HUGGINGFACE_API_KEYS`: the API you got from [here]([url](https://huggingface.co/settings/tokens/new?globalPermissions=inference.serverless.write&tokenType=fineGrained))
 
 - OpenAI format baseurl: https://example.deno.dev/v1/chat/completions
 
