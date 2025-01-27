@@ -7,6 +7,8 @@ const CUSTOMER_MODEL_MAP = {
     "qwen2.5-72b-instruct": "Qwen/Qwen2.5-72B-Instruct",
     "qwq-32b-preview": "Qwen/QwQ-32B-Preview",
     "qwen2.5-coder-32b-instruct": "Qwen/Qwen2.5-Coder-32B-Instruct",
+    "deepseek-r1-32b": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "deepseek-r1-hg": "deepseek-ai/DeepSeek-R1"
 };
 
 let currentKeyIndex = 0;
